@@ -2,6 +2,8 @@
 
 A .NET 8 Web API that turns a Slack 🐞 reaction into a guided Jira issue workflow.
 
+**Created by Ritik Kashyap.**
+
 ## Current workflow
 
 1. A user adds the `:bug:` reaction to a Slack message.
@@ -45,6 +47,10 @@ dotnet run
 When the app is running in Development, Swagger is available at `/swagger`. The health endpoint is `/api/health`.
 
 Configure the Slack app's **Event Subscriptions** request URL as `<public-base-url>/api/slack/events` and its **Interactivity & Shortcuts** request URL as `<public-base-url>/api/slack/interactions`. Subscribe the bot to the `reaction_added` event and grant the bot the permissions needed to read reactions, post messages, and open modals. Reinstall the app after changing scopes or event subscriptions.
+
+## Advanced versions and customization
+
+Looking for an advanced or customized version? Contact me to discuss enhancements at a nominal cost: [ritik67500@gmail.com](mailto:ritik67500@gmail.com).
 
 ## Important before deployment
 
