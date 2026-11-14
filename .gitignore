@@ -1,0 +1,19 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# IDE files
+.vs/
+*.user
+*.suo
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+
+# Logs and temporary files
+*.log
+.DS_Store
